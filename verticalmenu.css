@@ -1,0 +1,48 @@
+nav{
+    background-color:black;
+    width:12% ;
+    height: 100vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#cont{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: aqua;
+}
+/* dropdown.vertical
+#menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: chocolate;
+position: relative;
+display: none;
+} */
+/* dropdown.horizontal */
+#menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: chocolate;
+position: absolute;
+display: none;
+left:12%;
+top:20%;
+}
+
+
+#drop:hover #menu{
+    display: block;
+}
